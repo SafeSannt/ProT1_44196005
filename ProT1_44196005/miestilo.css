@@ -1,0 +1,103 @@
+/* 
+body {
+    background-color: #eaf2e3;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.CNK {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.presentacion {
+    font-size: large;
+    margin: 5%;
+}
+*/
+
+header {
+    background-color: #292624;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+section {
+    padding: 20px; /* espaciado para la sección de 20 pixeles */
+}    
+footer {
+    background-color: #fc5c04; /* Color de fondo del footer */
+    color: #fff;
+    padding: 20px 0; 
+}
+.footer-content {
+    max-width: 800px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+    text-align: center; 
+}
+
+/* Estilos para el nav y enlaces de ul y li */
+nav {
+    background-color: #fc5c04;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/*
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    background-color: #ff8c4e;
+}
+*/
+
+
+nav ul li a {
+    display: inline-block; /* Para que los enlaces se muestren en línea */
+    width: 120px; /* Ajustado el ancho de los enlaces */
+    height: 30px; /* Ajustado el alto de los enlaces */
+    line-height: 30px; /* Centrar verticalmente el texto */
+    text-align: center; /* Centrar horizontalmente el texto */
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 0; /* Ajustado el relleno vertical */
+    margin-right: 20px;
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    background-color: #ff8c4e;
+}
+
+
+/* Estilos para las imágenes */
+.img_logo {
+    display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+    margin: 0 auto; /* Centrar las imágenes horizontalmente */
+    max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+    width: 15%;
+    height: auto;
+    border: 3px solid #fc5c04; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+    border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
+}
+
+.img_footer {
+    display: inline-block; /* Cambiado a inline-block para que las imágenes se muestren en línea */
+    width: 30px; /* Ajustado el ancho de las imágenes */
+    height: auto;
+}
